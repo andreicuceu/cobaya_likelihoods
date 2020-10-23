@@ -44,14 +44,9 @@ class lya_bao(Likelihood):
         """
          return dictionary specifying quantities calculated by a theory code are needed
         """
-        reqs = {
-            "DA_over_rs": {
-                "angular_diameter_distance": {"z": self.redshift},
-                "rdrag": None},
-            "Hz_rs": {
-                "Hubble": {"z": self.redshift},
-                "rdrag": None},
-        }
+        reqs = {"angular_diameter_distance": {"z": self.redshift},
+                "rdrag": None,
+                "Hubble": {"z": self.redshift}}
         
         return reqs
 
