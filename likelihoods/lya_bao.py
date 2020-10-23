@@ -60,7 +60,7 @@ class lya_bao(Likelihood):
         rd = self.provider.get_param("rdrag")
         da = self.provider.get_angular_diameter_distance(self.redshift)
         hubble = self.provider.get_Hubble(self.redshift, units="km/s/Mpc")
-        c = scipy.constants / 1000
+        c = scipy.constants.c / 1000
         at = (da / rd) / self.DA_over_rs_fid
         ap = (c / (hubble * rd)) / self.c_over_Hz_rs_fid
 
