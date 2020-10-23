@@ -44,9 +44,9 @@ class lya_bao(Likelihood):
         """
          return dictionary specifying quantities calculated by a theory code are needed
         """
-        reqs = {"angular_diameter_distance": {"z": self.redshift},
+        reqs = {"angular_diameter_distance": {"z": [self.redshift]},
                 "rdrag": None,
-                "Hubble": {"z": self.redshift}}
+                "Hubble": {"z": [self.redshift]}}
         
         return reqs
 
