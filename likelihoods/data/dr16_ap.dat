@@ -1,2 +1,2 @@
-# [z] [value at z] [quantity]
-2.3    4.5579635    F_AP
+# [z] [value at z]  [error]    [quantity]
+2.3    4.5579635    0.1367389    F_AP
