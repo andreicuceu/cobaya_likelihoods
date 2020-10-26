@@ -1,4 +1,4 @@
 redshift: 2.3
-DA_over_rs_fid: 4.5579635
-c_over_Hz_rs_fid: 0.1367389
+F_AP: 4.5579635
+sig_F_AP: 0.1367389
 speed: 500
