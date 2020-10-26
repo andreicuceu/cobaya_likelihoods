@@ -38,7 +38,7 @@ class lya_bao(Likelihood):
             grid[:,i] = scan_chunk[:,2]
 
         #Make the interpolator (x refers to at, y refers to ap).
-        self.interpolator = RectBivariateSpline(at, ap, grid, kx=1, ky=1)
+        self.interpolator = RectBivariateSpline(at, ap, grid, kx=3, ky=3)
 
     def get_requirements(self):
         """
