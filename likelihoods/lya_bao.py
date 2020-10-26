@@ -54,8 +54,6 @@ class lya_bao(Likelihood):
         """
         Taking a dictionary of (sampled) nuisance parameter values params_values
         and return a log-likelihood.
-
-        e.g. here we calculate chi^2  using cls['tt'], H0_theory, my_foreground_amp
         """
         rd = self.provider.get_param("rdrag")
         da = self.provider.get_angular_diameter_distance(self.redshift)[0]
