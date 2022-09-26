@@ -1,2 +1,3 @@
-# cobaya_likelihoods
-External likelihoods for Cobaya
+# Cobaya Likelihoods
+External likelihoods for Cobaya.
+
