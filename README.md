@@ -1,5 +1,5 @@
 # Cobaya Likelihoods
-External likelihoods for Cobaya.
+External likelihoods for [Cobaya](https://github.com/CobayaSampler/cobaya).
 
 ## Ly $\alpha$ full-shape likelihood from eBOSS DR16 $\xi_\rm{3D}$
 To use the likelihood with the full-shape results from [insert citation], first clone this repository:
@@ -18,6 +18,6 @@ likelihood:
     sig_phi: _
     correlation: _
 ```
-See equations 5 and 6 of [insert citation] for the definitions of alpha and phi.
+See Equations 5 and 6 of [insert citation] for the definitions of **alpha** and **phi**, and the [Cobaya documentation](https://cobaya.readthedocs.io/en/latest/) for instructions on installing and using Cobaya.
 
-If you use this likelihood please cite [insert citation].
+### If you use this likelihood please cite [insert citation].
